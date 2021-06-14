@@ -8,3 +8,5 @@ Cara Pakai
 - Import file .sql ke postgreSQL
 - Start Xampp
 - Akses localhost/test pada web browser
+- Register Akun Admin untuk mengakses localhost/test/home-admin (Mengatur Movie, Rating, User, Admin)
+- Register Akun User agar dapat mengakses localhost/test
