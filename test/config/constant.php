@@ -5,11 +5,11 @@ session_start();
 define('SITEURL', 'http://localhost/test');
 
 $host='localhost';
-$nama_db = 'hana';
+$nama_db = 'proyek_akhir';
 $user = 'postgres';
-$password = 'password'; 
+$password = 'nasadewa19'; 
 try {
-	$dsn = "pgsql:host=$host;port=5433;dbname=$nama_db;";
+	$dsn = "pgsql:host=$host;port=5432;dbname=$nama_db;";
 
 	// make a database connection
 	$pdo = new PDO(
